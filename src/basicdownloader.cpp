@@ -54,7 +54,7 @@ basicdownloader::basicdownloader( const Context& ctx ) :
 
 	tableWidget::tableWidgetOptions opts ;
 
-	opts.selectionMode = QAbstractItemView::ExtendedSelection ;
+	// opts.selectionMode = QAbstractItemView::ExtendedSelection ;
 
 	m_tableList.setTableWidget( opts ) ;
 

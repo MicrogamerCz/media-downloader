@@ -95,7 +95,7 @@ batchdownloader::batchdownloader( const Context& ctx ) :
 
 		tableWidget::tableWidgetOptions opts ;
 
-		opts.selectionMode = QAbstractItemView::ExtendedSelection ;
+		// opts.selectionMode = QAbstractItemView::ExtendedSelection ;
 
 		return opts ;
 	}() ) ;

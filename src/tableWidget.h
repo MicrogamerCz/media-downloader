@@ -42,7 +42,7 @@ public:
 		QFlags< QAbstractItemView::EditTrigger > editTrigger = QAbstractItemView::NoEditTriggers ;
 		Qt::ContextMenuPolicy customContextPolicy = Qt::CustomContextMenu ;
 		Qt::FocusPolicy focusPolicy = Qt::NoFocus ;
-		QAbstractItemView::SelectionMode selectionMode = QAbstractItemView::NoSelection ;
+		QAbstractItemView::SelectionMode selectionMode = QAbstractItemView::ExtendedSelection ;
 		bool mouseTracking = true ;
 	};
 	void setCurrentItemChanged( int s )
