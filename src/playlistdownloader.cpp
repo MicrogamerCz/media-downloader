@@ -280,10 +280,11 @@ playlistdownloader::playlistdownloader( Context& ctx ) :
 		}
 	} ) ;
 
-	connect( m_ui.pbPLQuit,&QPushButton::clicked,[ this ](){
+	// TODO: allow closing app when NOT downloading
+	// connect( m_ui.pbPLQuit,&QPushButton::clicked,[ this ](){
 
-		m_ctx.mainWindow().quitApp() ;
-	} ) ;
+	// 	m_ctx.mainWindow().quitApp() ;
+	// } ) ;
 }
 
 void playlistdownloader::init_done()
@@ -305,7 +306,7 @@ void playlistdownloader::enableAll()
 	m_ui.lineEditPLUrlOptions->setEnabled( true ) ;
 	m_ui.pbPLDownload->setEnabled( true ) ;
 	m_ui.pbPLOptions->setEnabled( true ) ;
-	m_ui.pbPLQuit->setEnabled( true ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.labelPLEnterUrl->setEnabled( true ) ;
 	m_ui.pbPLCancel->setEnabled( true ) ;
 	m_ui.pbPLGetList->setEnabled( true ) ;
@@ -337,7 +338,7 @@ void playlistdownloader::disableAll()
 	m_ui.lineEditPLUrlOptions->setEnabled( false ) ;
 	m_ui.pbPLDownload->setEnabled( false ) ;
 	m_ui.pbPLOptions->setEnabled( false ) ;
-	m_ui.pbPLQuit->setEnabled( false ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.labelPLEnterUrl->setEnabled( false ) ;
 }
 

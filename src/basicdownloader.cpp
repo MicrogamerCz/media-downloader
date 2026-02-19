@@ -133,11 +133,6 @@ basicdownloader::basicdownloader( const Context& ctx ) :
 		}
 	} ) ;
 
-	connect( m_ui.pbQuit,&QPushButton::clicked,[ this ](){
-
-		m_ctx.mainWindow().quitApp() ;
-	} ) ;
-
 	auto s = static_cast< void( QComboBox::* )( int ) >( &QComboBox::activated ) ;
 
 	connect( m_ui.cbEngineType,s,[ & ]( int s ){
@@ -621,10 +616,11 @@ void basicdownloader::tabExited()
 	m_ctx.logger().updateView( false ) ;
 }
 
-void basicdownloader::enableQuit()
-{
-	m_ui.pbQuit->setEnabled( true ) ;
-}
+// TODO: allow closing app when NOT downloading
+// void basicdownloader::enableQuit()
+// {
+	// m_ui.pbQuit->setEnabled( true ) ;
+// }
 
 void basicdownloader::enableAll()
 {
@@ -639,7 +635,7 @@ void basicdownloader::enableAll()
 	m_ui.pbDownload->setEnabled( true ) ;
 	m_ui.lineEditURL->setEnabled( true ) ;
 	m_ui.lineEditOptions->setEnabled( true ) ;
-	m_ui.pbQuit->setEnabled( true ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.labelEngineName->setEnabled( true ) ;
 	m_ui.pbBasicDownloaderPlay->setEnabled( true ) ;
 }
@@ -651,7 +647,7 @@ void basicdownloader::disableAll()
 	m_ui.pbOptionsHistory->setEnabled( false ) ;
 	m_ui.pbPasteClipboard->setEnabled( false ) ;
 	m_ui.cbEngineType->setEnabled( false ) ;
-	m_ui.pbQuit->setEnabled( false ) ;
+	// TODO: disallow closing app when downloading
 	m_ui.pbEntries->setEnabled( false ) ;
 	m_ui.labelEngineName->setEnabled( false ) ;
 	m_ui.label_2->setEnabled( false ) ;

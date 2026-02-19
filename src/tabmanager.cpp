@@ -65,8 +65,6 @@ tabManager::tabManager( settings& s,
 		m_ctx.getVersionInfo().checkMediaDownloaderUpdate( engines ) ;
 	}else{
 		this->disableAll() ;
-
-		ui.pbQuit->setEnabled( true ) ;
 	}
 }
 

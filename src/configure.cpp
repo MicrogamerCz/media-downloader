@@ -528,11 +528,12 @@ configure::configure( const Context& ctx ) :
 		}
 	} ) ;
 
-	connect( m_ui.pbConfigureQuit,&QPushButton::clicked,[ this ](){
+	// TODO: allow closing app when NOT downloading
+	//connect( m_ui.pbConfigureQuit,&QPushButton::clicked,[ this ](){
 
 		//this->saveOptions() ;
-		m_ctx.mainWindow().quitApp() ;
-	} ) ;
+		//m_ctx.mainWindow().quitApp() ;
+	//} ) ;
 
 	connect( m_ui.pbConfigureSave,&QPushButton::clicked,[ this ](){
 
@@ -1572,7 +1573,7 @@ void configure::enableAll()
 	m_ui.pbConfigureDownloadPath->setEnabled( true ) ;
 	m_ui.pbConfigureSetPresetDefaults->setEnabled( true ) ;
 	m_ui.labelConfigureDownloadPath->setEnabled( true ) ;
-	m_ui.pbConfigureQuit->setEnabled( true ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.pbConfigureAddAPlugin->setEnabled( true ) ;
 	m_ui.pbConfigureRemoveAPlugin->setEnabled( true ) ;
 	m_ui.cbConfigureShowMetaDataInBatchDownloader->setEnabled( true ) ;
@@ -1675,7 +1676,7 @@ void configure::disableAll()
 	m_ui.pbConfigureDownload->setEnabled( false ) ;
 	m_ui.cbConfigureLanguage->setEnabled( false ) ;
 	m_ui.labelConfigureLanguage->setEnabled( false ) ;
-	m_ui.pbConfigureQuit->setEnabled( false ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.lineEditConfigureDownloadPath->setEnabled( false ) ;
 	m_ui.lineEditConfigureDownloadPath->setEnabled( false ) ;
 	m_ui.pbConfigureDownloadPath->setEnabled( false ) ;

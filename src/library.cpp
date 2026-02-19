@@ -95,7 +95,7 @@ library::library( const Context& ctx ) :
 		}else{
 			m_table.clear() ;
 			this->disableAll() ;
-			m_ui.pbLibraryQuit->setEnabled( true ) ;
+			// TODO: allow closing app when NOT downloading
 			m_ui.pbLibraryDowloadFolder->setEnabled( true ) ;
 		}
 	} ) ;
@@ -109,10 +109,11 @@ library::library( const Context& ctx ) :
 
 	m_table.connect( &QTableWidget::customContextMenuRequested,this,&library::cxMenuRequested ) ;
 
-	connect( m_ui.pbLibraryQuit,&QPushButton::clicked,[ this ](){
+	// TODO: allow closing app when NOT downloading
+	// connect( m_ui.pbLibraryQuit,&QPushButton::clicked,[ this ](){
 
-		m_ctx.mainWindow().quitApp() ;
-	} ) ;
+	// 	m_ctx.mainWindow().quitApp() ;
+	// } ) ;
 
 	connect( m_ui.pbLibraryDowloadFolder,&QPushButton::clicked,[ this ](){
 
@@ -182,7 +183,7 @@ void library::init_done()
 		this->enableAll() ;
 	}else{
 		this->disableAll() ;
-		m_ui.pbLibraryQuit->setEnabled( true ) ;
+		// TODO: allow closing app when NOT downloading
 		m_ui.pbLibraryDowloadFolder->setEnabled( true ) ;
 	}
 }
@@ -383,7 +384,7 @@ void library::deleteAll()
 void library::enableAll()
 {
 	m_table.setEnabled( true ) ;
-	m_ui.pbLibraryQuit->setEnabled( true ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.pbLibraryCancel->setEnabled( true ) ;
 	m_ui.pbLibraryHome->setEnabled( true ) ;
 	m_ui.pbLibraryDowloadFolder->setEnabled( true ) ;
@@ -394,7 +395,7 @@ void library::enableAll()
 void library::disableAll()
 {
 	m_table.setEnabled( false ) ;
-	m_ui.pbLibraryQuit->setEnabled( false ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.pbLibraryCancel->setEnabled( false ) ;
 	m_ui.pbLibraryHome->setEnabled( false ) ;
 	m_ui.pbLibraryDowloadFolder->setEnabled( false ) ;

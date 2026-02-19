@@ -294,10 +294,11 @@ batchdownloader::batchdownloader( const Context& ctx ) :
 		this->showCustomContext() ;
 	} ) ;
 
-	connect( m_ui.pbBDQuit,&QPushButton::clicked,[ this ](){
+	// TODO: allow closing app when NOT downloading
+	// connect( m_ui.pbBDQuit,&QPushButton::clicked,[ this ](){
 
-		m_ctx.mainWindow().quitApp() ;
-	} ) ;
+		// m_ctx.mainWindow().quitApp() ;
+	// } ) ;
 
 	connect( m_ui.pbBDAdd,&QPushButton::clicked,[ this ](){
 
@@ -3005,7 +3006,7 @@ void batchdownloader::enableAll()
 	m_ui.pbBDOptions->setEnabled( true ) ;
 	m_ui.labelBDEnterOptions->setEnabled( true ) ;
 	m_ui.labelBDEnterUrl->setEnabled( true ) ;
-	m_ui.pbBDQuit->setEnabled( true ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.lineEditBDUrl->setEnabled( true ) ;
 	m_ui.lineEditBDUrlOptions->setEnabled( true ) ;
 	m_ui.labelBDEngineName->setEnabled( true ) ;
@@ -3026,7 +3027,7 @@ void batchdownloader::disableAll()
 	m_ui.pbBDDownload->setEnabled( false ) ;
 	m_ui.pbBDOptions->setEnabled( false ) ;
 	m_ui.labelBDEnterOptions->setEnabled( false ) ;
-	m_ui.pbBDQuit->setEnabled( false ) ;
+	// TODO: allow closing app when NOT downloading
 	m_ui.lineEditBDUrlOptions->setEnabled( false ) ;
 	m_ui.pbBatchDownloaderSet->setEnabled( false ) ;
 	m_ui.TableWidgetBatchDownloaderList->setEnabled( false ) ;

@@ -135,7 +135,7 @@ void networkAccess::updateMediaDownloader( networkAccess::Status status ) const
 
 	m_tabManager.disableAll() ;
 
-	m_basicdownloader.setAsActive().enableQuit() ;
+	// m_basicdownloader.setAsActive().enableQuit() ;
 
 	auto u = this->networkRequest( m_ctx.Settings().gitHubDownloadUrl() ) ;
 
@@ -519,7 +519,7 @@ void networkAccess::download( networkAccess::iterator iter ) const
 
 	m_tabManager.disableAll() ;
 
-	m_basicdownloader.setAsActive().enableQuit() ;
+	// m_basicdownloader.setAsActive().enableQuit() ;
 
 	networkAccess::Opts opts1{ iter.move(),exePath,exeFolderPath,id } ;
 

@@ -51,6 +51,7 @@ MainWindow::MainWindow( QApplication& app,
 
 	qRegisterMetaType< utility::networkReply >() ;
 	qRegisterMetaType< reportFinished >() ;
+	new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q), this, SLOT(close()));
 
 	// m_settings.setMainWindowDimensions( this->window() ) ;
 

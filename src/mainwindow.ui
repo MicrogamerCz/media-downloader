@@ -489,13 +489,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QPushButton" name="pbBDQuit">
-            <property name="text">
-             <string>Quit</string>
-            </property>
-           </widget>
-          </item>
          </layout>
         </item>
         <item>
@@ -994,13 +987,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QPushButton" name="pbPLQuit">
-            <property name="text">
-             <string>Quit</string>
-            </property>
-           </widget>
-          </item>
          </layout>
         </item>
        </layout>
@@ -1046,19 +1032,6 @@
           <string notr="true">Name</string>
          </property>
         </column>
-       </widget>
-       <widget class="QPushButton" name="pbLibraryQuit">
-        <property name="geometry">
-         <rect>
-          <x>630</x>
-          <y>450</y>
-          <width>111</width>
-          <height>33</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Quit</string>
-        </property>
        </widget>
        <widget class="QPushButton" name="pbLibraryUp">
         <property name="geometry">
@@ -2419,19 +2392,6 @@ Exampe 2: ${gateway}:8080</string>
           </property>
          </widget>
         </widget>
-       </widget>
-       <widget class="QPushButton" name="pbConfigureQuit">
-        <property name="geometry">
-         <rect>
-          <x>390</x>
-          <y>446</y>
-          <width>221</width>
-          <height>33</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Quit</string>
-        </property>
        </widget>
        <widget class="QPushButton" name="pbConfigureSave">
         <property name="geometry">
