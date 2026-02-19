@@ -148,7 +148,7 @@ basicdownloader::basicdownloader( const Context& ctx ) :
 
 			m_ui.lineEditOptions->setText( m ) ;
 		}
-	} ) ;	
+	} ) ;
 }
 
 void basicdownloader::keyPressed( utility::mainWindowKeyCombo e )
@@ -301,7 +301,7 @@ void basicdownloader::listRequested( const QByteArray& a,int id )
 }
 
 void basicdownloader::list()
-{	
+{
 	m_tableList.setEnabled( false ) ;
 
 	m_tableList.setVisible( true ) ;
@@ -446,7 +446,7 @@ void basicdownloader::download( const basicdownloader::engine& eng,
 				const utility::args& args,
 				const QStringList& urls,
 				bool update )
-{	
+{
 	eng.engine.updateVersionInfo( m_ctx,[ this,eng,args,urls,update ](){
 
 		const auto& engine = eng.engine ;

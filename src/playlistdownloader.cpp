@@ -255,7 +255,7 @@ playlistdownloader::playlistdownloader( Context& ctx ) :
 		}
 	} ) ;
 
-	connect( m_ui.pbPLGetList,&QPushButton::clicked,[ this ](){		
+	connect( m_ui.pbPLGetList,&QPushButton::clicked,[ this ](){
 
 		auto m = m_ui.lineEditPLUrl->text() ;
 
@@ -814,7 +814,7 @@ void playlistdownloader::download( const engines::engine& engine )
 }
 
 void playlistdownloader::downloadRecursively( const engines::engine& eng,int index,bool downloadRecursively )
-{	
+{
 	class events
 	{
 	public:

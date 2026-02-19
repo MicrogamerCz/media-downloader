@@ -534,7 +534,7 @@ void batchdownloader::showCustomContext()
 
 					this->downloadSingle( engine,row ) ;
 				}
-			}			
+			}
 		} ) ;
 	} ) ;
 
@@ -1825,7 +1825,7 @@ void batchdownloader::getListFromFile( QMenu& m )
 		if( !e.isEmpty() ){
 
 			this->getListFromFile( e,false ) ;
-		}		
+		}
 	} ) ;
 }
 
@@ -1931,7 +1931,7 @@ void batchdownloader::updateTitleBar()
 void batchdownloader::showThumbnail( const engines::engine& engine,
 				    int index,
 				    const QString& url )
-{			
+{
 	class events
 	{
 	public:

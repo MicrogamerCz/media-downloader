@@ -186,7 +186,7 @@ void networkAccess::uMediaDownloaderM( networkAccess::updateMDOptions& md,
 
 		md.file.close() ;
 
-		if( p.success() ){			
+		if( p.success() ){
 
 			if( md.hash.isEmpty() ){
 
@@ -781,7 +781,7 @@ void networkAccess::extractArchiveOuput( networkAccess::Opts opts,
 		}
 
 		m_ctx.getVersionInfo().check( opts.iter.move(),true ) ;
-	}else{		
+	}else{
 		this->failedToExtract( opts.exeArgs,s,opts.id ) ;
 
 		if( opts.iter.hasNext() ){
@@ -910,7 +910,7 @@ void networkAccess::extractArchive( const engines::engine& engine,
 }
 
 void networkAccess::post( const QString& engineName,const QString& m,int id ) const
-{	
+{
 	m_ctx.logger().add( [ engineName,&m ]( Logger::Data& s,int id,bool ){
 
 		auto e = m.toUtf8() ;

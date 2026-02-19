@@ -423,7 +423,7 @@ public:
 		auto header = m_table.horizontalHeader() ;
 
 		QObject::connect( header,&QHeaderView::sectionClicked,std::move( t ) ) ;
-	}	
+	}
 	void removeAllSelected()
 	{
 		class meaw : public baseRemoveAllSelected
@@ -706,7 +706,7 @@ public:
 			m_table.scrollToBottom() ;
 		}
 	}
-private:	
+private:
 	void updateRow( int,int )
 	{
 	}
