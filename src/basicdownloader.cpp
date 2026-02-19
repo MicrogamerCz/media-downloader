@@ -44,13 +44,12 @@ basicdownloader::basicdownloader( const Context& ctx ) :
 
 	m_hiddenTable.setColumnNumbersTo( 3 ) ;
 
-	this->setAsActive() ;
+	// this->setAsActive() ;
+	// m_ui.pbCancel->setEnabled( false ) ;
 
-	m_ui.pbCancel->setEnabled( false ) ;
+	// m_tableList.setVisible( false ) ;
 
-	m_tableList.setVisible( false ) ;
-
-	m_tableList.setUpHeaderMenu() ;
+	m_tableList.setUpHeaderMenu() ; // filter download options in table after pressing 'Get List'
 
 	tableWidget::tableWidgetOptions opts ;
 
