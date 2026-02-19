@@ -39,7 +39,7 @@ public:
 	void init_done() ;
 	void tabEntered() ;
 	void tabExited() ;
-	void enableQuit() ;
+	// void enableQuit() ;
 	void enableAll() ;
 	void disableAll() ;
 	void exiting() ;
