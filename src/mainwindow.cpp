@@ -52,7 +52,7 @@ MainWindow::MainWindow( QApplication& app,
 	qRegisterMetaType< utility::networkReply >() ;
 	qRegisterMetaType< reportFinished >() ;
 
-	m_settings.setMainWindowDimensions( this->window() ) ;
+	// m_settings.setMainWindowDimensions( this->window() ) ;
 
 	this->window()->setWindowIcon( m_trayIcon.icon() ) ;
 
