@@ -36,10 +36,11 @@ basicdownloader::basicdownloader( const Context& ctx ) :
 	m_tableList( *m_ui.bdTableWidgetList,0,m_ctx.mainWidget().font() ),
 	m_hiddenTable( m_bogusTableOriginal,m_ctx.mainWidget().font(),0,m_settings.textAlignment() )
 {
-	m_ui.pbPasteClipboard->setIcon( m_settings.getIcon( "clipboard" ) ) ;
-	m_ui.pbOptionsHistory->setIcon( m_settings.getIcon( "recentlyUsed" ) ) ;
-	m_ui.pbOptionsDownloadOptions->setIcon( m_settings.getIcon( "downloadOptions" ) ) ;	
-	m_ui.pbBasicDownloaderPlay->setIcon( m_settings.getIcon( "video" ) ) ;
+    // return;
+	// m_ui.pbPasteClipboard->setIcon( m_settings.getIcon( "clipboard" ) ) ;
+	// m_ui.pbOptionsHistory->setIcon( m_settings.getIcon( "recentlyUsed" ) ) ;
+	// m_ui.pbOptionsDownloadOptions->setIcon( m_settings.getIcon( "downloadOptions" ) ) ;
+	// m_ui.pbBasicDownloaderPlay->setIcon( m_settings.getIcon( "video" ) ) ;
 
 	m_hiddenTable.setColumnNumbersTo( 3 ) ;
 
