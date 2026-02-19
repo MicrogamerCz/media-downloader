@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -17,14 +17,14 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string />
+   <string/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="tabBasickDownloader">
        <attribute name="title">
@@ -37,9 +37,6 @@
            <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
           </property>
           <property name="tabKeyNavigation">
-           <bool>false</bool>
-          </property>
-          <property name="visible">
            <bool>false</bool>
           </property>
           <property name="showDropIndicator" stdset="0">
@@ -76,15 +73,10 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEditLogger" />
+         <widget class="QPlainTextEdit" name="plainTextEditLogger"/>
         </item>
         <item>
-         <layout
-                                        class="QGridLayout"
-                                        name="gridLayout_2"
-                                        columnstretch="0,0,0,0"
-                                        columnminimumwidth="0,0,0,0"
-                                    >
+         <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,0,0,0" columnminimumwidth="0,0,0,0">
           <property name="sizeConstraint">
            <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
           </property>
@@ -94,15 +86,15 @@
              <string>Paste Clipboard Content</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
             <property name="icon">
-             <iconset theme="edit-copy" />
+             <iconset theme="edit-copy"/>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEditURL" />
+           <widget class="QLineEdit" name="lineEditURL"/>
           </item>
           <item row="3" column="0">
            <widget class="QLabel" name="label_2">
@@ -110,8 +102,7 @@
              <string>Download Options:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -124,10 +115,10 @@
              <string>Recently Used</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
             <property name="icon">
-             <iconset theme="view-history" />
+             <iconset theme="view-history"/>
             </property>
            </widget>
           </item>
@@ -137,8 +128,7 @@
              <string>Enter URL:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -151,10 +141,10 @@
              <string>Play Downloaded Media</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
             <property name="icon">
-             <iconset theme="video-display" />
+             <iconset theme="video-display"/>
             </property>
            </widget>
           </item>
@@ -164,22 +154,22 @@
              <string>Set Download Options</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
             <property name="icon">
-             <iconset theme="download" />
+             <iconset theme="download"/>
             </property>
            </widget>
           </item>
           <item row="3" column="1">
            <widget class="QComboBox" name="cbEngineType">
             <property name="currentText">
-             <string notr="true" />
+             <string notr="true"/>
             </property>
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEditOptions" />
+           <widget class="QLineEdit" name="lineEditOptions"/>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="labelEngineName">
@@ -187,8 +177,7 @@
              <string>Engine Name:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -362,8 +351,7 @@
              <string>Engine Name:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -376,8 +364,7 @@
              <string>Download Options:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -385,10 +372,10 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="lineEditBDUrl" />
+           <widget class="QLineEdit" name="lineEditBDUrl"/>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEditBDUrlOptions" />
+           <widget class="QLineEdit" name="lineEditBDUrlOptions"/>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="labelBDEnterUrl">
@@ -396,8 +383,7 @@
              <string>Enter URL:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -413,7 +399,7 @@
              </sizepolicy>
             </property>
             <property name="currentText">
-             <string notr="true" />
+             <string notr="true"/>
             </property>
            </widget>
           </item>
@@ -423,7 +409,7 @@
              <string>Paste Clipboard Url</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -433,7 +419,7 @@
              <string>Monitor Clipboard For Url</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -443,7 +429,7 @@
              <string>Recently Used</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -453,7 +439,7 @@
              <string>Set Download Options</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -497,7 +483,7 @@
            <bool>true</bool>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
         </item>
@@ -507,8 +493,7 @@
            <string>Time Interval Start Time(HH:MM:SS):</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -516,7 +501,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEditStartTimeInterval" />
+         <widget class="QLineEdit" name="lineEditStartTimeInterval"/>
         </item>
         <item>
          <widget class="QLabel" name="labelBDSetNewFileName">
@@ -534,8 +519,7 @@
            <string>Time Interval End Time(HH:MM:SS):</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -543,12 +527,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEditEndTimeInterval" />
+         <widget class="QLineEdit" name="lineEditEndTimeInterval"/>
         </item>
         <item>
          <widget class="QPlainTextEdit" name="plainTextEditBD">
           <property name="placeholderText">
-           <string notr="true" />
+           <string notr="true"/>
           </property>
          </widget>
         </item>
@@ -558,8 +542,7 @@
            <string>Chapters(Comma Separated):</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -567,7 +550,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEditChapters" />
+         <widget class="QLineEdit" name="lineEditChapters"/>
         </item>
         <item>
          <widget class="QCheckBox" name="cbSplitByChapters">
@@ -615,8 +598,7 @@
             <string>Ui Name</string>
            </property>
            <property name="alignment">
-            <set
-                                                >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -642,10 +624,7 @@
             </rect>
            </property>
           </widget>
-          <widget
-                                            class="QTableWidget"
-                                            name="tableWidgetPlDownloaderSubscription"
-                                        >
+          <widget class="QTableWidget" name="tableWidgetPlDownloaderSubscription">
            <property name="geometry">
             <rect>
              <x>0</x>
@@ -696,7 +675,7 @@
             </rect>
            </property>
            <property name="toolTip">
-            <string />
+            <string/>
            </property>
            <property name="text">
             <string>Add</string>
@@ -715,8 +694,7 @@
             <string>Url</string>
            </property>
            <property name="alignment">
-            <set
-                                                >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -732,7 +710,7 @@
             </rect>
            </property>
            <property name="toolTip">
-            <string />
+            <string/>
            </property>
            <property name="text">
             <string>Done</string>
@@ -761,8 +739,7 @@
             <string>Get List Options:</string>
            </property>
            <property name="alignment">
-            <set
-                                                >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -801,7 +778,7 @@
              <string>Clear Internal Archive File</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -811,8 +788,7 @@
              <string>Enter Playlist URL:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -825,7 +801,7 @@
              <string>Recently Used</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -835,7 +811,7 @@
              <string>Paste Clipboard Content</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -845,7 +821,7 @@
              <string>Set Download Options</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -855,7 +831,7 @@
              <string>Recently Used</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -865,8 +841,7 @@
              <string>Download Options:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -879,8 +854,7 @@
              <string>Engine Name:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -893,18 +867,17 @@
              <string>Subscriptions</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEditPLDownloadRange" />
+           <widget class="QLineEdit" name="lineEditPLDownloadRange"/>
           </item>
           <item row="0" column="1">
            <widget class="QLineEdit" name="lineEditPLUrl">
             <property name="toolTip">
-             <string
-                                                    >Enter Playlist Url. To Add Multiple Playlists, Separate Them With A Space Or New Line</string>
+             <string>Enter Playlist Url. To Add Multiple Playlists, Separate Them With A Space Or New Line</string>
             </property>
            </widget>
           </item>
@@ -914,8 +887,7 @@
              <string>Get List Options:</string>
             </property>
             <property name="alignment">
-             <set
-                                                    >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -931,12 +903,12 @@
              </sizepolicy>
             </property>
             <property name="currentText">
-             <string notr="true" />
+             <string notr="true"/>
             </property>
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEditPLUrlOptions" />
+           <widget class="QLineEdit" name="lineEditPLUrlOptions"/>
           </item>
           <item row="1" column="4">
            <widget class="QCheckBox" name="cbUseInternalArchiveFile">
@@ -944,7 +916,7 @@
              <string>Use Internal Archive File</string>
             </property>
             <property name="text">
-             <string />
+             <string/>
             </property>
            </widget>
           </item>
@@ -1111,7 +1083,7 @@
          <bool>true</bool>
         </property>
         <property name="text">
-         <string />
+         <string/>
         </property>
        </widget>
        <widget class="QPlainTextEdit" name="plainTextLibrarySetNewName">
@@ -1124,7 +1096,7 @@
          </rect>
         </property>
         <property name="placeholderText">
-         <string notr="true" />
+         <string notr="true"/>
         </property>
        </widget>
        <widget class="QPushButton" name="pbLibrarySetNewFileName">
@@ -1210,11 +1182,10 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string
-                                            >A Button To Open A Folder To Be Used As A Download Folder</string>
+           <string>A Button To Open A Folder To Be Used As A Download Folder</string>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
          <widget class="QLabel" name="labelConfigureLanguage">
@@ -1230,8 +1201,7 @@
            <string>Select Language</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1260,17 +1230,13 @@
            <string>Download Path</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
           </property>
          </widget>
-         <widget
-                                        class="QCheckBox"
-                                        name="cbConfigureShowMetaDataInBatchDownloader"
-                                    >
+         <widget class="QCheckBox" name="cbConfigureShowMetaDataInBatchDownloader">
           <property name="geometry">
            <rect>
             <x>188</x>
@@ -1283,10 +1249,7 @@
            <string>Show MetaData In Batch Downloader</string>
           </property>
          </widget>
-         <widget
-                                        class="QLineEdit"
-                                        name="lineEditConfigureMaximuConcurrentDownloads"
-                                    >
+         <widget class="QLineEdit" name="lineEditConfigureMaximuConcurrentDownloads">
           <property name="geometry">
            <rect>
             <x>188</x>
@@ -1309,8 +1272,7 @@
            <string>Maximum Concurrent Downloads</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1339,8 +1301,7 @@
            <string>Theme(Need A Restart)</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1356,11 +1317,10 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string
-                                            >A Button To Open A Folder Where Theme Config Files Are Stored</string>
+           <string>A Button To Open A Folder Where Theme Config Files Are Stored</string>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
          <widget class="QCheckBox" name="cbShowTrayIcon">
@@ -1445,8 +1405,7 @@
            <string>Actions At Startup</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1491,10 +1450,7 @@
            <string>Notify When Download Completes</string>
           </property>
          </widget>
-         <widget
-                                        class="QCheckBox"
-                                        name="cbConfigureNotifyWhenAllDownloadCompltes"
-                                    >
+         <widget class="QCheckBox" name="cbConfigureNotifyWhenAllDownloadCompltes">
           <property name="geometry">
            <rect>
             <x>188</x>
@@ -1541,8 +1497,7 @@
            <string>Engine's Name</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1574,8 +1529,7 @@
            <string>Name Of Web Browser To Get Cookies From</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1647,8 +1601,7 @@
            <string>Options To Add</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1667,7 +1620,7 @@
            <bool>true</bool>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
          <widget class="QPushButton" name="pbConfigureSaveEditOption">
@@ -1729,8 +1682,7 @@
            <string>Text Encoding</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -1746,11 +1698,10 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string
-                                            >Switch Between Setting Browser Name And Path To Cookie File</string>
+           <string>Switch Between Setting Browser Name And Path To Cookie File</string>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
          <widget class="QPushButton" name="pbConfigureSetPathToCookieFile">
@@ -1763,7 +1714,7 @@
            </rect>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
         </widget>
@@ -1863,8 +1814,7 @@
            <string>Ui Name</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QLabel" name="labelConfigureOptionsPresetOptiions">
@@ -1880,8 +1830,7 @@
            <string>Options</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QPushButton" name="pbConfigureAddToPresetList">
@@ -1894,7 +1843,7 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string />
+           <string/>
           </property>
           <property name="text">
            <string>Add</string>
@@ -1923,8 +1872,7 @@
            <string>Website</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QLabel" name="labelBaseConfirmResetPreset">
@@ -1940,7 +1888,7 @@
            <bool>true</bool>
           </property>
           <property name="text">
-           <string />
+           <string/>
           </property>
          </widget>
          <widget class="QLabel" name="labelBaseConfirmResetPresetText">
@@ -1953,8 +1901,7 @@
            </rect>
           </property>
           <property name="text">
-           <string
-                                            >Are You Sure You Want To Reset These Options To Their Defaults?</string>
+           <string>Are You Sure You Want To Reset These Options To Their Defaults?</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -2043,8 +1990,7 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string
-                                            >A Button To Open A Folder Where Extension's Binaries Are Stored</string>
+           <string>A Button To Open A Folder Where Extension's Binaries Are Stored</string>
           </property>
           <property name="text">
            <string>Open Binary Folder</string>
@@ -2060,8 +2006,7 @@
            </rect>
           </property>
           <property name="toolTip">
-           <string
-                                            >A Button To Open A Folder Where Extension's Binaries Are Stored</string>
+           <string>A Button To Open A Folder Where Extension's Binaries Are Stored</string>
           </property>
           <property name="text">
            <string>Open Extension Folder</string>
@@ -2124,8 +2069,7 @@
            <string>Url Filter</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -2144,8 +2088,7 @@
            <string>Options</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -2207,8 +2150,7 @@
            <string>Engine's Name</string>
           </property>
           <property name="alignment">
-           <set
-                                            >Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>
@@ -2447,7 +2389,7 @@ Exampe 2: ${gateway}:8080</string>
    </layout>
   </widget>
  </widget>
- <layoutdefault spacing="6" margin="11" />
+ <layoutdefault spacing="6" margin="11"/>
  <tabstops>
   <tabstop>tableWidgetPl</tabstop>
   <tabstop>tableWidgetLibrary</tabstop>
@@ -2455,8 +2397,6 @@ Exampe 2: ${gateway}:8080</string>
   <tabstop>pbLibraryUp</tabstop>
   <tabstop>pbLibraryDowloadFolder</tabstop>
   <tabstop>pbLibraryRefresh</tabstop>
-  <tabstop>pbLibraryQuit</tabstop>
-  <tabstop>pbConfigureQuit</tabstop>
   <tabstop>cbConfigureLanguage</tabstop>
   <tabstop>lineEditConfigureDownloadPath</tabstop>
   <tabstop>pbConfigureDownloadPath</tabstop>
@@ -2470,6 +2410,6 @@ Exampe 2: ${gateway}:8080</string>
   <tabstop>pbConfigureEngineDefaultOptions</tabstop>
   <tabstop>pbConfigureSave</tabstop>
  </tabstops>
- <resources />
- <connections />
+ <resources/>
+ <connections/>
 </ui>
